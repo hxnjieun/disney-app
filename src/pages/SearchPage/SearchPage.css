@@ -1,0 +1,32 @@
+.search-container{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    padding: 7rem 0;
+    text-align: center;
+}
+.movie{
+    flex: 1 1 auto;
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-bottom: 5rem;
+}
+.movie__column-poster{
+    cursor: pointer;
+    transition: transform 0.3s;
+    -webkit-transition: translate;
+}
+.movie__column-poster:hover{
+    transform: scale(1.2);
+}
+.movie__poster{
+    width: 90%;
+    border-radius: 0.5rem;
+}
+.no-results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem;
+}
